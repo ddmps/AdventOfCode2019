@@ -5,6 +5,6 @@ interface AdventRunnable<T, O> {
     fun convertInput(): List<T>
     fun execute(input: List<T>): O
     fun main() {
-        print(execute(convertInput()))
+        println(execute(convertInput()))
     }
 }
