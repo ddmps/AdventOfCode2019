@@ -1,12 +1,14 @@
 package theTyrannyOfTheRocketEquation
 
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
+import theTyrannyOfTheRocketEquation.FuelCalculator
 
 internal class FuelCalculatorTest {
 
     @Test
     fun simpleFuelCalculator() {
-        assert(FuelCalculator(false).execute(listOf(12)) == 2)
+        assertEquals(2, FuelCalculator(false).execute(listOf(12)))
         assert(FuelCalculator(false).execute(listOf(14)) == 2)
         assert(FuelCalculator(false).execute(listOf(1969)) == 654)
         assert(FuelCalculator(false).execute(listOf(100756)) == 33583)
