@@ -2,7 +2,6 @@ package theTyrannyOfTheRocketEquation
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import theTyrannyOfTheRocketEquation.FuelCalculator
 
 internal class FuelCalculatorTest {
 
